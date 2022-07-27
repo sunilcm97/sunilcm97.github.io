@@ -1,0 +1,110 @@
+body{
+    background-image: url("D:\\xworkz\\Web Technology\\download.jpg");
+    background-size: 100%;
+    padding: 5px 5px 5px 5px;
+    border: 5px double yellow;
+    background-repeat: no-repeat;
+}
+
+h1 {                                           /*CSS Element selector*/
+   /* background-color: rgb(130, 190, 206);*/
+    color:red;
+    text-align:center;
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+
+h3{
+    color: white;
+    text-align:center;
+}
+
+
+p{
+    color: yellow;
+    text-transform:uppercase ;
+    font-size: 200%;
+}
+
+p.benifits{                                    /*CSS selector for specific element*/
+    color:orange;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+ 
+div{  
+ /*  padding: 10px 150px 10px 150px;
+   border: 5px dotted rgb(18, 15, 15);
+   margin: 100px;*/
+
+}
+
+
+ /*.box{                                               
+                                         
+    border: 1px solid black;                    
+    height:50px;
+    width: 50px;
+    display: inline-block;
+    
+}
+
+.box1{
+    border: 1px solid black;
+    height:50px;
+    width: 50px;
+    float: right;
+}*/
+
+
+.fixed{
+    position:fixed;
+    top:0;
+    
+}
+
+.relative{
+    position:relative;
+    right: 100px;
+}
+
+.image{
+  position:relative;
+
+}
+
+.absolute{
+  position:right;
+  right:0;
+
+}
+
+.topleft{
+    position:absolute;
+    left:100px;
+    top:0;
+    color:black;
+}
+
+
+
+.topright{
+    position:absolute;
+    right:300px;
+    top:0;
+    color:blue;
+}
+
+.bottomright{
+    position:absolute;
+    right:300px;
+    bottom:20px;
+    color:red;
+}
+
+.bottomleft{
+    position:absolute;
+    left:100px;
+    bottom:20px;
+    color:green;
+}
